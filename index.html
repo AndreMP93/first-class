@@ -59,8 +59,11 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="columns">
-            <div class="column">
-              <div class="card">
+            <button class="button is-primary" id="buttonAdd">
+                            Adicionar Perfil
+                    </button>
+            <div class="column" id= 'column1'>
+              <div class="card" id= 'card1'>
                 <div class="card-image">
                   <figure class="image is-4by3">
                     <img
@@ -91,12 +94,16 @@
                     <button class="button is-primary" id="button1">
                             Mostrar Modal
                     </button>
+                    
+                    <button class="button is-primary" id="buttonRemove1">
+                            Remover Perfil
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="column">
-              <div class="card">
+            <div class="column" id="column2">
+              <div class="card" id= 'card2'>
                 <div class="card-image">
                   <figure class="image is-4by3">
                     <img
@@ -127,12 +134,15 @@
                     <button class="button is-primary" id="button2">
                             Mostrar Modal
                     </button>
+                    <button class="button is-primary" id="buttonRemove2">
+                            Remover Perfil
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="column">
-              <div class="card">
+            <div class="column" id= 'column3'>
+              <div class="card" id= 'card3'>
                 <div class="card-image">
                   <figure class="image is-4by3">
                     <img
@@ -163,12 +173,15 @@
                     <button class="button is-primary" id="button3">
                             Mostrar Modal
                     </button>
+                    <button class="button is-primary" id="buttonRemove3">
+                            Remover Perfil
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="column">
-              <div class="card">
+            <div class="column" id='column4'>
+              <div class="card" id= 'card4'>
                 <div class="card-image">
                   <figure class="image is-4by3">
                     <img
@@ -199,6 +212,9 @@
                     <button class="button is-primary" id="button4">
                         Mostrar Modal
                     </button>
+                    <button class="button is-primary" id="buttonRemove4">
+                            Remover Perfil
+                    </button>
                   </div>
                 </div>
               </div>
@@ -212,7 +228,7 @@
             <div class="modal-content">
                 <div class="box">
                         <div class="content has-text-black has-text-centered">
-                                I am here bro
+                                I am here bro1
                         </div>
                         <button class="button is-danger" onclick="closeModal()">
                                 Fechar modal
@@ -220,6 +236,51 @@
                 </div>
             </div>
             <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
+          </div>
+      
+      <div class="modal" id="modal2">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="box">
+                        <div class="content has-text-black has-text-centered">
+                                I am here bro 2
+                        </div>
+                        <button class="button is-danger" onclick="closeModal2()">
+                                Fechar modal
+                        </button>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="closeModal2()"></button>
+          </div>
+
+        <div class="modal" id="modal3">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="box">
+                        <div class="content has-text-black has-text-centered">
+                                I am here bro 3
+                        </div>
+                        <button class="button is-danger" onclick="closeModal3()">
+                                Fechar modal
+                        </button>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="closeModal2()"></button>
+          </div>
+
+        <div class="modal" id="modal4">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="box">
+                        <div class="content has-text-black has-text-centered">
+                                I am here bro 4
+                        </div>
+                        <button class="button is-danger" onclick="closeModal4()">
+                                Fechar modal
+                        </button>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="closeModal4()"></button>
           </div>
   </body>
 </html>
